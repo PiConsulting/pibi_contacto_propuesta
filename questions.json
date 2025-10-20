@@ -1,0 +1,87 @@
+[
+  {
+    "type": "welcome",
+    "title": "¡Bienvenido! 😊",
+    "description": "Nos alegra que estés interesado en nuestras soluciones.<br>Para poder ayudarte mejor, comenzaremos con tu correo electrónico.<br>¡Gracias por confiar en nosotros!",
+    "input": {
+      "type": "email",
+      "placeholder": "Correo electrónico"
+    },
+    "button": "Comenzar"
+  },
+  {
+    "type": "number",
+    "title": "¿Cuántos usuarios visores de Power BI te gustaría tener?",
+    "description": "<span class=\"tooltip\">ⓘ<span class=\"tooltip-text\">Considere como visores los usuarios que no desarrollan tableros</span></span>",
+    "input": {
+      "type": "number",
+      "min": 1,
+      "max": 1000,
+      "step": 1,
+      "placeholder": "Cantidad de visores"
+    },
+    "button": "Siguiente"
+  },
+  {
+    "type": "number",
+    "title": "¿Cuántos informes querés distribuir en esos usuarios?",
+    "description": "",
+    "input": {
+      "type": "number",
+      "min": 1,
+      "max": 1000,
+      "step": 1,
+      "placeholder": "Cantidad de informes"
+    },
+    "button": "Siguiente"
+  },
+  {
+    "type": "number",
+    "title": "¿Cuál es el peso del modelo semántico más chico?",
+    "description": "<span class=\"tooltip\">ⓘ<span class=\"tooltip-text\">Podés verlo en la configuración de área de trabajo o guiarte del peso del archivo</span></span>",
+    "input": {
+      "type": "number",
+      "min": 0.1,
+      "max": 1000,
+      "step": 0.1,
+      "placeholder": "Peso en MB"
+    },
+    "button": "Siguiente"
+  },
+  {
+    "type": "number",
+    "title": "¿Cuál es el peso del modelo semántico más grande?",
+    "description": "<span class=\"tooltip\">ⓘ<span class=\"tooltip-text\">Podés verlo en la configuración de área de trabajo o guiarte del peso del archivo</span></span>",
+    "input": {
+      "type": "number",
+      "min": 0.1,
+      "max": 10000,
+      "step": 0.1,
+      "placeholder": "Peso en MB"
+    },
+    "button": "Siguiente"
+  },
+  {
+    "type": "number",
+    "title": "¿Cuál es el peso promedio de un modelo semántico?",
+    "description": "<span class=\"tooltip\">ⓘ<span class=\"tooltip-text\">Podés verlo en la configuración de área de trabajo o guiarte del peso del archivo</span></span>",
+    "input": {
+      "type": "number",
+      "min": 0.1,
+      "max": 10000,
+      "step": 0.1,
+      "placeholder": "Peso en MB"
+    },
+    "button": "Siguiente"
+  },
+  {
+    "type": "textarea",
+    "title": "¿Hay algo más que te gustaría comentarnos sobre tu escenario o en general que debamos tener en cuenta?",
+    "description": "",
+    "input": {
+      "type": "textarea",
+      "placeholder": "Cuéntanos detalles adicionales, necesidades, contexto o cualquier comentario..."
+    },
+    "button": "Finalizar"
+  }
+]
