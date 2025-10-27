@@ -253,9 +253,9 @@ button.main-btn:disabled {
   cursor: default;
 }
 button.secondary-btn {
-  background: var(--accent);
+  /*background: var(--accent);*/
   color: var(--primary);
-  border: 2px solid var(--accent);
+  border: 2px solid var(--primary); /*var(--accent);*/
 }
 button.secondary-btn:disabled {
   background: #ffecd2;

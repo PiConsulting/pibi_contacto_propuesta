@@ -2,8 +2,8 @@
 const questions = [
   {
     type: "welcome",
-    title: "¡Bienvenido! 😊",
-    description: "Nos alegra que estés interesado en nuestras soluciones.<br>Para poder ayudarte mejor, comenzaremos con tu correo electrónico.<br>¡Gracias por confiar en nosotros!",
+    title: "¡Te damos la bienvenida! 😊",
+    description: "Nos alegra que tengas interés en nuestra solución.<br>Para poder ayudarte mejor, comenzaremos con tu correo electrónico.<br> Este dato es necesario para enviarte información personalizada según tu escenario ¡Gracias por confiar en nosotros!",
     input: {
       type: "email",
       placeholder: "Correo electrónico"
